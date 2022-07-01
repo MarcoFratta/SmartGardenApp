@@ -1,10 +1,7 @@
 package com.alma.smartgarden;
 
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-
-import java.text.CollationElementIterator;
 
 public class IntensityViewHolder implements IntensityObject, Holder {
 
