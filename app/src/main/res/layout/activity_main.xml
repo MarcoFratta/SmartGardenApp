@@ -70,7 +70,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/roboto_bold"
             android:text="@string/smart_garden"
             android:textColor="@android:color/darker_gray"
@@ -156,13 +156,27 @@
 
         <ImageView
             android:id="@+id/alarm"
-            android:layout_width="52dp"
-            android:layout_height="39dp"
+            android:layout_width="50dp"
+            android:layout_height="46dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/notification" />
+
+        <ImageButton
+            android:id="@+id/bt"
+            android:layout_width="49dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/purple_200"
+            android:contentDescription="@string/def_val"
+            app:layout_constraintEnd_toStartOf="@+id/alarm"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+            app:tint="@color/purple_500" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
